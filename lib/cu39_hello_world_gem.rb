@@ -4,5 +4,8 @@ require_relative "cu39_hello_world_gem/version"
 
 module Cu39HelloWorldGem
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.hello
+    "Hello World!"
+  end
 end

@@ -9,7 +9,7 @@ class Cu39HelloWorldGemTest < Test::Unit::TestCase
     end
   end
 
-  test "something useful" do
-    assert_equal("expected", "actual")
+  test "Cu39HelloWorldGem.hello" do
+    assert_equal("Hello World!", Cu39HelloWorldGem.hello)
   end
 end
